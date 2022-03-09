@@ -1,25 +1,25 @@
 {
-  "name": "catBot",
+  "name": "DeepakBot",
   "version": "2.0.0",
-  "description": "catbot whatsapp bot provides a bunch of bgms and features to your whatsapp account.",
+  "description": "deepakbot whatsapp bot provides a bunch of bgms and features to your whatsapp account.",
   "main": "./catboz/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Itsmebasil8/catboz"
+    "url": "git+https://github.com/deepakbots27/catboz"
   },
   "keywords": [
     "WhatsApp",
     "bgm",
     "Bot"
   ],
-  "author": "AsenaDev / Yusuf Usta",
+  "author": "Deepak / Deepak",
   "developer": "basilser / @karthik-terror-boy",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/Itsmebasil8/catboz/issues"
+    "url": "https://github.com/deepakbots27/catboz/issues"
   },
   "homepage": "https://github.com/phaticusthiccy/WhatsAsenaDuplicated#readme",
   "dependencies": {
