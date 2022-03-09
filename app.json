@@ -1,11 +1,11 @@
 {
-    "name": "Catbot",
+    "name": "DEEPAKBOT",
     "description": "Catbot is the Modified Version of WhatsAsena, Made By @Basilser with Baileys.",
     "logo": "https://i.imgur.com/54yVC4Q.jpg",
     "keywords": ["whatsapp", "catbot", "userbot", "julie", "WhatsAsena", "mwol", "bot", "ai"],
-    "repository": "https://github.com/itsmebasil0/catbot",
-    "website":   "https://github.com/itsmebasil0/catbot",
-    "success_url": "https://github.com/itsmebasil0/catbot",
+    "repository": "https://github.com/deepakbots27/catbot",
+    "website":   "https://github.com/deepakbots27/catbot",
+    "success_url": "https://github.com/deepakbots27/catbot",
     "stack": "container",
     "env": {
         "CATBOT_SESSION": {
@@ -17,7 +17,7 @@
             "required": false
         },
         "OWNER_NUMBER": {
-            "description": "Your owner number give here",
+            "description": "9679744547",
             "required": false
         },
         "LANGUAGE": {
@@ -26,18 +26,18 @@
             "value": "en"
         },
         "OWNER_NAME": {
-            "description": "Type your name",
+            "description": "DEEPAK",
             "required": false,
             "value": "default"  
         },
         "BGM_FILTER": {
             "description": "If you likes bgm you can write 'true'. Otherwise false",
-            "required": false,
+            "required": true,
             "value": "true"
         },
         "AUTO_STICKER": {
             "description": "If you likes bgm you can write 'true'. Otherwise false",
-            "required": false,
+            "required": true,
             "value": "true"
         },
         "TALKING_PINKY": {
@@ -47,12 +47,12 @@
         },
         "WEL_GIF": {
             "description": "Fill here any gif link if you selected gif as WEELCOME",
-            "required": false,
+            "required": true,
             "value": "false"
         },
         "BYE_GIF": {
             "description": "Fill here any gif link if you selected gif as WEELCOME",
-            "required": false,
+            "required": true,
             "value": "false"
         },
         "ANTİ_LİNK": {
@@ -111,28 +111,28 @@
         },
         "BLOCK_CHAT": {
             "description": "Choose in which chat the bot won't work there. Ex: 905xxxx && 905xxxx-1xxx or 905xxxx,905xxx...",
-            "required": false,
+            "required": true,
             "value": "false"
         },
         "UNMUTE_MESSAGE": {
             "description": "Customizable Unmute Message! Use => default, to change back.",
-            "required": false,
+            "required": true,
             "value": "default"
         },
         "BLOCK_MESSAGE": {
             "description": "Customizable Block Message! Use => default, to change back.",
-            "required": false,
+            "required": true,
             "value": "default"
         },
         "UNBLOCK_MESSAGE": {
             "description": "Customizable Unblock Message! Use => default, to change back.",
-            "required": false,
+            "required": true,
             "value": "default"
         },
         "BOT_NAME": {
             "description": "heading for .list command reply",
             "required": false,
-            "value": "default"
+            "value": "DEEPAK"
         },
         "WORK_TYPE": {
             "description": "Catbot Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
@@ -199,7 +199,7 @@
         },
         "NO_ONLINE": {
             "description": "Çevrimiçi görünmek istemiyorsanız true yazın. Type true if you don't want to appear online.",
-            "required": false,
+            "required": true,
             "value": "true"
         }
     },
